@@ -1,7 +1,17 @@
+h5{
+  margin-bottom: 10px;
+}
+.text-center{
+  text-align: center;
+}
 .testimonial {
   background-image: url('../images/bg-curso.jpg');
   background-size: cover;
   padding: 2rem 0;
+}
+.logo{
+  height: 30px;
+  margin-top: 15px;
 }
 .container {
   max-width: 900px;
@@ -13,8 +23,19 @@
 .navbar {
   display: none;
 }
+.img-round{
+  border-radius: 50%;
+  width: 50px;
+  margin-right: 1rem;
+}
+.strike{
+  text-decoration: line-through;
+}
+.pricing{
+  margin-bottom: 1rem;
+}
 .testimonial-description {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 .testimonial-description i{
   color: rgba(0,0,0,0.5);
@@ -29,9 +50,30 @@
 .tab-bullets{
   display: none;
   list-style: none;
+  padding-top: 2rem;
 }
 .date-start{
   font-size: 2rem;
+}
+.select-tab{
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  padding: 0;
+  text-align: center;
+  margin-bottom: 0;
+  background-color: rgba(255,255,255,0.4);
+}
+.contato-section{
+  background-color: #EA8E62;
+}
+#mc-embedded-subscribe.btn-mailchimp{
+  background-color: rgba(255,255,255,0.8);
+}
+.discount{
+  font-size: 2.5rem;
+  border-top: 1px dotted #2393F1;
+  padding-top: 2rem;
 }
 /* Larger than phone */
 
@@ -50,10 +92,7 @@
 
 @media (min-width: 750px) {
 
-  .modulo{
-    padding-top: 5rem;
-  }
-  #depoimentos{
+  .modulo, #depoimentos, #contato, .ref{
     padding-top: 5rem;
   }
   /* Navbar */
