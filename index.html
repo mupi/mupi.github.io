@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Your page title here :)</title>
+  <title>Curso de Tecnologia para sala de aula</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -15,32 +16,239 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="http://fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/responsive-tabs/responsive-tabs.css">
+  <link rel="stylesheet" href="css/landing.css">
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="assets/responsive-tabs/jquery.responsiveTabs.min.js"></script>
+  <script src="js/main.js"></script>
+
+
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="icon" type="image/png" href="images/favicon.png">
 
 </head>
+
 <body>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
+  <header class="container header">
     <div class="row">
-      <div class="one-half column" style="margin-top: 25%">
-        <h4>Basic Page</h4>
-        <p>This index.html page is a placeholder with the CSS, font and favicon. It's just waiting for you to add some content! If you need some help hit up the <a href="http://www.getskeleton.com">Skeleton documentation</a>.</p>
+      <div class="two-thirds column" id="sobre">
+        <h1>
+          Curso online: Tecnologia para Sala de Aula
+        </h1>
+        <h4>
+          Aprenda o passo-a-passo de como utilizar as ferramentas gratuitas mais populares da internet em sua sala de aula.
+        </h4>
+        <p>
+          Tutoria por Paula Furtado
+          <a href="http://br.linkedin.com/pub/paula-furtado/7/801/ab8" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+        </p>
+        <p>
+          Com formação em Letras pela Unicamp e atualmente mestranda em Linguística Aplicada (sob orientação da prof. dr. Denise Bértoli Braga), na área de novos letramentos, tecnologia e material digital na mesma universidade. Possui 6 anos de experiência profissional com produção de material e-learning e design instrucional, atua como professora na área de Língua Portuguesa para Ensino Médio e alunos particulares e é co-fundadora da micro-empresa Escola Mupi, uma escola online de tecnologia criativa. Autora do blog <a href="http://paulafurtado.blog.br" target="_blank">Educação com Tecnologia</a>.
+        </p>
+
+      </div>
+      <div class="one-third column">
+        <h3 class="value-multiplier">Público-alvo</h3>
+        <p class="value-description">Este curso é direcionado para educadores de qualquer área de ensino interessados em inserir tecnologia em seus planos de ensino.</p>
+        <h3 class="value-multiplier">Requisitos</h3>
+        <p class="value-description">Conhecimentos básicos de informática e internet, como já ter usado computador e acessado ferramentas como e-mail e rede social.</p>
+      </div>
+    </div>
+  </header>
+  <div class="navbar-spacer"></div>
+  <nav class="navbar">
+    <div class="container">
+      <ul class="navbar-list">
+        <li class="navbar-item"><a class="navbar-link" href="#sobre">Sobre</a>
+        </li>
+        <li class="navbar-item">
+          <a class="navbar-link" href="#" data-popover="#codeNavPopover">Módulos</a>
+          <div id="codeNavPopover" class="popover">
+            <ul class="popover-list">
+              <li class="popover-item">
+                <a class="popover-link" href="#modulo1">Módulo I</a>
+              </li>
+              <li class="popover-item">
+                <a class="popover-link" href="#modulo2">Módulo II</a>
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="navbar-item"><a class="navbar-link" href="#depoimentos">Depoimentos</a>
+        </li>
+        <li class="navbar-item"><a class="navbar-link" href="#contato">Contato</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="section testimonial" id="depoimentos">
+    <div class="container" id="testimonials-tabs">
+      <ul class="tab-menu">
+        <li><a href="#depo-1"> Depo1 </a>
+        </li>
+        <li><a href="#depo-2"> Depo2 </a>
+        </li>
+        <li><a href="#depo-3"> Depo3 </a>
+        </li>
+        <li><a href="#depo-4"> Depo4 </a>
+        </li>
+        <li><a href="#depo-5"> Depo5 </a>
+        </li>
+      </ul>
+      <div class="row">
+        <div class="two columns">
+          <ul class="tab-bullets">
+            <li>
+              <button class="select-tab" value="0">1</button>
+            </li>
+            <li>
+              <button class="select-tab" value="1">2</button>
+            </li>
+            <li>
+              <button class="select-tab" value="2">3</button>
+            </li>
+            <li>
+              <button class="select-tab" value="3">4</button>
+            </li>
+            <li>
+              <button class="select-tab" value="4">5</button>
+            </li>
+          </ul>
+        </div>
+        <div class="ten columns">
+          <div id="depo-1">
+            <p class="testimonial-description">
+              <i class="fa fa-quote-left"></i>Acho bem interessante a proposta do curso. Para mim valeu muito como experiência e como primeiro impulso para ir adentrando os caminhos das novas tecnologias.<i class="fa fa-quote-right"></i>
+            </p>
+            <p class="testimonial-author">
+              Silvia Poblete, Campinas - SP
+              <br/> Professora de língua estrangeira no Centro de Ensino de Línguas na Unicamp na área de espanhol.
+            </p>
+          </div>
+          <div class="row" id="depo-2">
+            <p class="testimonial-description">
+              <i class="fa fa-quote-left"></i>Gostaria de fazer mais cursos como esse, dirigidos à formação de letramento digital de professores e de apoio à prática de elaboração de atividades para a sala de aula com recursos da internet. Espero que Paula e equipe continuem a investir na organização desses cursos para professores!<i class="fa fa-quote-right"></i>
+            </p>
+            <p class="testimonial-author">
+              Liliana Gottheim, Campinas - SP
+              <br/> Professora de língua estrangeira no Centro de Ensino de Línguas na Unicamp na área de português para estrangeiros.
+            </p>
+          </div>
+          <div class="row" id="depo-3">
+            <p class="testimonial-description">
+              <i class="fa fa-quote-left"></i>Gostei do curso. Achei muito inovador, objetivo, direto e prático. Atendeu minhas necessidades!<i class="fa fa-quote-right"></i>
+            </p>
+            <p class="testimonial-author">
+              Valéria de Souza, Rio de Janeiro - RJ
+              <br/> Coordenadora pedagógica e empresária - Educação infantil e Fundamental I - Jardim Escola Ursinhos Risonhos.
+            </p>
+          </div>
+          <div class="row" id="depo-4">
+            <p class="testimonial-description">
+              <i class="fa fa-quote-left"></i>Adorei fazer o curso de Tecnologia para Sala de Aula, a Paula é muito atenciosa e aprendi várias ferramentas muito legais e importantes para utilizar com meus alunos. Recomendadíssimo!<i class="fa fa-quote-right"></i>
+            </p>
+            <p class="testimonial-author">
+              Daniel Nadaleto, Jaú-SP e Barra Bonita-SP
+              <br/> Professor (Ensino Fundamental e Médio) de Ciências, Robótica e Biologia e professor de Didática - pós-graduação da Uningá.
+            </p>
+          </div>
+          <div class="row" id="depo-5">
+            <p class="testimonial-description">
+              <i class="fa fa-quote-left"></i>Curso interessante, temas relevantes e aplicáveis na sala de aula.<i class="fa fa-quote-right"></i>
+            </p>
+            <p class="testimonial-author">
+              Bianca Mendes Henrique, Embu das Artes-SP
+              <br/> Professora de ensino fundamental I e tutora em cursos online.
+            </p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
 
-<!-- End Document
+  <div class="section">
+    <div class="container">
+      <div class="row modulo" id="modulo1">
+        <h3>Módulo 1 - 4 semanas (dedicação de 30 horas)</h3>
+        <ol>
+          <li>Uma reflexão sobre tecnologia, educação e multiletramentos </li>
+          <li>Fazendo podcasts e narrações digitais e criando um canal de publicação online (ferramentas: Audacity, Voice </li>Recorder e SoundCloud) (2 semanas)
+          <li>Remixando: produzindo vídeos em 5 minutos com o Popcorn Google News - comparando as mídias de comunicação </li>
+          <li>Produzindo um meme online e aprendendo um pouco sobre o funcionamento da internet e das páginas web (HTML e CSS) </li>
+          <li>Montando uma atividade facilitada pela tecnologia: sua vez! (prazo de entrega - duas semanas após o fim do módulo)</li>
+        </ol>
+
+        <p>Início em 23 de fevereiro e término em 20 de março</p>
+        <div class="row">
+          <div class="one-half column">
+            <p class="date-start">
+              Vagas limitadas, garanta a sua!
+            </p>
+          </div>
+          <div class="one-half column">
+            <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+            <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post" onsubmit="PagSeguroLightbox(this); return false;">
+              <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+              <input type="hidden" name="itemCode" value="61EB91DD939359844485EFB2CB4CFCEE" />
+              <input type="image" src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/pagamentos/209x48-comprar-azul-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+            </form>
+            <script type="text/javascript" src="https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.lightbox.js"></script>
+            <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+          </div>
+        </div>
+      </div>
+
+      <div class="row modulo" id="modulo2">
+        <h3>Módulo 2 - 4 semanas (dedicação de 30 horas)</h3>
+        <ol>
+          <li>Twitter - aprendendo a produzir e pesquisar conteúdos na maior rede social do mundo</li>
+          <li>Metodologia PBL (Problem Based Learning) e ferramenta online de organização colaborativa de tarefas (ferramenta: Trello)</li>
+          <li>Objetos de Aprendizagem: utilizando respositórios gratuitos</li>
+          <li>Google Drive: repositório online pessoal e colaborativo</li>
+          <li>Google Docs: produção colaborativa utilizando editores de texto, planilha, apresentação e formulário </li>
+          <li>Montando uma atividade facilitada pela tecnologia: sua vez! (prazo de entrega - duas semanas após o fim do módulo)</li>
+        </ol>
+        <p>Início em 30 de março e término em 24 de abril.</p>
+        <div class="row">
+          <div class="one-half column">
+            <p class="date-start">
+              Vagas limitadas, garanta a sua!
+            </p>
+          </div>
+          <div class="one-half column">
+            <!-- INICIO FORMULARIO BOTAO PAGSEGURO -->
+            <form action="https://pagseguro.uol.com.br/checkout/v2/cart.html?action=add" method="post" onsubmit="PagSeguroLightbox(this); return false;">
+              <!-- NÃO EDITE OS COMANDOS DAS LINHAS ABAIXO -->
+              <input type="hidden" name="itemCode" value="97DE143CD9D9C7D1141F9FAD45765C68" />
+              <input type="image" src="https://p.simg.uol.com.br/out/pagseguro/i/botoes/pagamentos/209x48-comprar-azul-assina.gif" name="submit" alt="Pague com PagSeguro - é rápido, grátis e seguro!" />
+            </form>
+            <script type="text/javascript" src="https://stc.pagseguro.uol.com.br/pagseguro/api/v2/checkout/pagseguro.lightbox.js"></script>
+            <!-- FINAL FORMULARIO BOTAO PAGSEGURO -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
+
 </html>
