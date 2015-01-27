@@ -75,6 +75,12 @@ h5{
   border-top: 1px dotted #2393F1;
   padding-top: 2rem;
 }
+.pwdby{
+  font-size: 1rem;
+}
+.mupi-link{
+  color: #FFF;
+}
 /* Larger than phone */
 
 @media (min-width: 550px) {
