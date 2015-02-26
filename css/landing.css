@@ -13,6 +13,9 @@ h5{
   height: 30px;
   margin-top: 15px;
 }
+.salaaberta{
+  max-width: 150px;
+}
 .container {
   max-width: 900px;
 }
