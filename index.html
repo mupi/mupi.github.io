@@ -41,7 +41,7 @@
     <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
 
-<body>
+<body id="topo">
     <div id="fb-root"></div>
     <script>
     (function(d, s, id) {
@@ -60,141 +60,67 @@
         <div class="container">
             <ul class="navbar-list">
                 <li class="navbar-item">
-                    <a class="navbar-link" href="#sobre" target="_blank"><img src="images/logo.png" class="logo" /></a>
+                    <a class="navbar-link" href="#topo" target="_blank"><img src="images/logo.png" class="logo" /></a>
                 </li>
-                <li class="navbar-item"><a class="navbar-link" href="#depoimentos">Depoimentos</a>
+                <li class="navbar-item"><a class="navbar-link" href="#projetos">Projetos</a>
                 </li>
-                <li class="navbar-item"><a class="navbar-link" href="#saiumidia">Mídia</a></li>
                 <li class="navbar-item"><a class="navbar-link" href="#quem-somos">Quem somos</a>
-                    <li class="navbar-item"><a class="navbar-link" href="#vagas">Vagas</a>
-                    </li>
-                    <li class="navbar-item"><a class="navbar-link" href="#contato">Contato</a>
-                    </li>
+                <li class="navbar-item"><a class="navbar-link" href="#vagas">Vagas</a>
+                </li>
+                <li class="navbar-item"><a class="navbar-link" href="http://blog.mupi.me" target="_blank">Blog</a>
+                </li>
+                <li class="navbar-item"><a class="navbar-link" href="#contato">Contato</a>
+                </li>
             </ul>
         </div>
     </nav>
-    <header class="container header">
-        <div class="row">
-            <div class="one-third column" id="sobre">
-                <h2>
-                  Cursos e formação sob demanda
-                </h2>
-                <div class="fb-like" data-href="http://www.facebook.com/escolamupi" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
-            </div>
-            <div class="one-third column" id="sobre">
-                <h2>
-                  Produção de material multimidia
-                </h2>
-                <div class="fb-like" data-href="http://www.facebook.com/escolamupi" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
-                  </div>
-            <div class="one-third column">
-                <h2>Oficinas</h2>
-            </div>
+    <header>
+        <div class="row container">
+            <h1>Conectamos tecnologia e educação</h1>
+            <p>Criamos soluções para impactar a educação.</p>
         </div>
     </header>
-    <div class="section testimonial" id="depoimentos">
-        <div class="container" id="testimonials-tabs">
-            <ul class="tab-menu">
-                <li><a href="#depo-1">Silvia Poblete</a>
-                </li>
-                <li><a href="#depo-2">Liliana Gottheim</a>
-                </li>
-                <li><a href="#depo-3">Valéria de Souza</a>
-                </li>
-                <li><a href="#depo-4">Daniel Nadaleto</a>
-                </li>
-                <li><a href="#depo-5">Bianca Mendes Henrique</a>
-                </li>
-            </ul>
-            <div class="row">
-                <div class="one columns">
-                    <ul class="tab-bullets">
-                        <li>
-                            <button class="select-tab" value="0"></button>
-                        </li>
-                        <li>
-                            <button class="select-tab" value="1"></button>
-                        </li>
-                        <li>
-                            <button class="select-tab" value="2"></button>
-                        </li>
-                        <li>
-                            <button class="select-tab" value="3"></button>
-                        </li>
-                        <li>
-                            <button class="select-tab" value="4"></button>
-                        </li>
-                    </ul>
+    <section class="container projects" id="projetos">
+        <div class="row">
+            <h2>Nossos projetos</h2>
+        </div>
+        <div class="row">
+            <div class="one-third column card">
+                <div class="thumb-circle">
+                    <img src="images/TecProf-thumb.png" />
                 </div>
-                <div class="eleven columns">
-                    <div id="depo-1">
-                        <p class="testimonial-description">
-                            <i class="fa fa-quote-left"></i>Acho bem interessante a proposta do curso. Para mim valeu muito como experiência e como primeiro impulso para ir adentrando os caminhos das novas tecnologias.<i class="fa fa-quote-right"></i>
-                        </p>
-                        <p class="testimonial-author">
-                            Silvia Poblete, Unicamp - SP
-                            <br/> Professora de língua estrangeira no Centro de Ensino de Línguas na Unicamp na área de espanhol.
-                        </p>
-                    </div>
-                    <div class="row" id="depo-2">
-                        <p class="testimonial-description">
-                            <i class="fa fa-quote-left"></i>Gostaria de fazer mais cursos como esse, dirigidos à formação de letramento digital de professores e de apoio à prática de elaboração de atividades para a sala de aula com recursos da internet. Espero que Paula e equipe continuem a investir na organização desses cursos para professores!<i class="fa fa-quote-right"></i>
-                        </p>
-                        <p class="testimonial-author">
-                            Liliana Gottheim, Unicamp - SP
-                            <br/> Professora de língua estrangeira no Centro de Ensino de Línguas na Unicamp na área de português para estrangeiros.
-                        </p>
-                    </div>
-                    <div class="row" id="depo-3">
-                        <p class="testimonial-description">
-                            <i class="fa fa-quote-left"></i>Gostei do curso. Achei muito inovador, objetivo, direto e prático. Atendeu minhas necessidades!<i class="fa fa-quote-right"></i>
-                        </p>
-                        <p class="testimonial-author">
-                            Valéria de Souza, Rio de Janeiro - RJ
-                            <br/> Coordenadora pedagógica e empresária - Educação infantil e Fundamental I - Jardim Escola Ursinhos Risonhos.
-                        </p>
-                    </div>
-                    <div class="row" id="depo-4">
-                        <p class="testimonial-description">
-                            <i class="fa fa-quote-left"></i>Adorei fazer o curso de Tecnologia para Sala de Aula, a Paula é muito atenciosa e aprendi várias ferramentas muito legais e importantes para utilizar com meus alunos. Recomendadíssimo!<i class="fa fa-quote-right"></i>
-                        </p>
-                        <p class="testimonial-author">
-                            Daniel Nadaleto, Jaú-SP e Barra Bonita-SP
-                            <br/> Professor (Ensino Fundamental e Médio) de Ciências, Robótica e Biologia e professor de Didática - pós-graduação da Uningá.
-                        </p>
-                    </div>
-                    <div class="row" id="depo-5">
-                        <p class="testimonial-description">
-                            <i class="fa fa-quote-left"></i>Curso interessante, temas relevantes e aplicáveis na sala de aula.<i class="fa fa-quote-right"></i>
-                        </p>
-                        <p class="testimonial-author">
-                            Bianca Mendes Henrique, Embu das Artes-SP
-                            <br/> Professora de ensino fundamental I e tutora em cursos online.
-                        </p>
-                    </div>
+                <a href="http://tecsaladeaula.com.br/" target="_blank">
+                    <h3>Formação de professores</h3>
+                </a>
+                <p>
+                    Somos <strong>fãs</strong> dos professores e acreditamos que eles são um nó essencial na evolução da educação.
+                    Por isso, criamos um <a href="http://tecsaladeaula.com.br/" target="_blank">portal de cursos online</a> só para eles, onde compartilhamos o que sabemos sobre
+                    tecnologia e como ela pode ser aplicada na sala de aula.
+                </p>
+            </div>
+            <div class="one-third column card" id="sobre">
+                <div class="thumb-circle">
+                    <img src="images/multimidia.png" />
                 </div>
+                <h3>
+                  Produção de material multimidia
+                </h3>
+                <p>
+                    Podemos te ajudar a pensar qual o melhor jeito de se ensinar um conteúdo digitalmente ;)
+                    Criamos videos tutoriais, áudios, podcasts e imagens digitais (incluindo <a href="http://anarute.com/como-gravar-sua-tela-em-gifs-animados-no-linux/" target="_blank">gifs animados</a>) para cursos online.
+                </p>
+            </div>
+            <div class="one-third column card">
+                <div class="thumb-circle">
+                    <img src="images/oficinas.png" />
+                </div>
+                <h3>Oficinas presenciais</h3>
+                <p>
+                    Oferecemos oficinas e cursos presenciais que abordam pedagogias inovadoras e o uso pedagógico das novas tecnologias. Aqui, os temas podem ser também personalizados de acordo com as necessidades de cada instituição. Tanto as oficinas quantos os cursos podem ser voltado para grupos de educadores e para grupos crianças e adolescentes.
+                </p>
             </div>
         </div>
-    </div>
-    <div class="section" id="saiumidia">
-        <div class="container">
-            <div class="row midia">
-                <div class="one-third column">
-                    <h4 class="title_midia">Saiu na mídia</h4>
-                </div>
-                <div class="one-third column">
-                    <a href="http://porvir.org/porfazer/curso-ensina-como-usar-ferramentas-virtuais-para-educadores" target="_blank">
-                        <img src="images/logo_porvir.png" target="_blank" />
-                    </a>
-                </div>
-                <div class="one-third column">
-                    <a href="http://www.inova.unicamp.br/noticia/3413" target="_blank">
-                        <img class="inova" src="images/logo_inova.png" target="_blank" />
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
+    </section>
     <div class="section">
         <div class="container">
             <h5>Quem somos</h5>
@@ -232,14 +158,48 @@
                         <a href="http://lattes.cnpq.br/3733839504299045" target="_blank"><i class="fa fa-link"></i></a>
                     </p>
                     <p>
-                        É professora titular do Departamento de Linguística Aplicada da Universidade Estadual de Campinas onde atua como docente e pesquisadora desde 1980.
-                        Desde 1996 tem se dedicado ao estudo do impacto das tecnologias digitais nas formas de comunicação, nas metodologias de ensino, com ênfase na produção de materiais digitais para estudo automonitorado.
+                        É professora titular do Departamento de Linguística Aplicada da Unicamp onde atua como docente e pesquisadora desde 1980.
+                        Desde 1996 dedica-se ao estudo do impacto das tecnologias digitais nas formas de comunicação e nas metodologias de ensino, com ênfase na produção de materiais digitais para estudo automonitorado.
                         Foi criadora e coordenadora do curso digital Read in Web, patenteado pela Unicamp em 2014 e registrado como software livre.
                     </p>
                 </div>
             </div>
+            <div class="row section" id="quem-somos">
+                <div class="one-third column" id="sobre">
+                    <p>
+                        <img src="images/naira.jpg" class="img-round u-pull-left" /> Naira Terra<br/>
+                        <strong>Pesquisadora e tutora</strong>
+                    </p>
+                    <p>
+                        Com formação em Letras pela Unicamp e mestra em Linguística Aplicada (sob orientação da prof. dr. Denise Bértoli Braga), na área de novos letramentos, tecnologia e material digital na mesma universidade. Possui 6 anos de experiência profissional como professora e com a produção de material e-learning e design instrucional.
+                    </p>
+                </div>
+                <div class="one-third column" id="sobre">
+                    <p>
+                        <img src="images/raquel.jpg" class="img-round u-pull-left" /> Raquel Caldas <br/>
+                        <strong>Parceira criativa</strong>
+                        <a href="http://www.facebook.com/raquel.caldas.75" target="_blank"><i class="fa fa-facebook-official"></i></a>
+                        <a href="http://quelcaldas.com" target="_blank"><i class="fa fa-link"></i></a>
+                        <a href="http://www.twitter.com/QuelCaldas" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                    </p>
+                    <p>
+                      Formada em Midialogia pela Unicamp e técnica em Informática pelo Colégio Técnico de Campinas. Representou a Escola Mupi no processo de aceleração The Lisbon Chalenge em Lisboa, turma Fall'14.
+                      Atualmente designer front-end e responsável pela equipe técnica da Mupi.
+                    </p>
+                </div>
+                <div class="one-third column" id="sobre">
+                    <p>
+                        <img src="images/favicon.png" class="img-round u-pull-left" /> Você! :) <br/>
+                        <strong>Desenvolvedor(a) web</strong>
+                        <a href="#vagas" target="_blank"><i class="fa fa-link"></i></a>
+                    </p>
+                    <p>
+                        Temos vagas abertas na área de desenvolvimento web, se deseja entrar pro nosso time, clique abaixo e mande seu currículo!
+                    </p>
+                </div>
+            </div>
             <div class="row ref" id="vagas">
-                <h5>Vagas</h5>
+                <h5>Precisamos de você :)</h5>
                 <script type="text/javascript" id="rbox-loader-script">
                 if(!window._rbox){
                 _rbox = { host_protocol:document.location.protocol, ready:function(cb){this.onready=cb;} };
@@ -261,6 +221,8 @@
                 <div class="one-half column">
                     <h5><i class="fa fa-envelope-o"></i> Dúvidas?</h5>
                     <p>Envie um email para <em>contato@mupi.me</em> que responderemos o mais rápido possível.</p>
+                    <div class="fb-like" data-href="http://www.facebook.com/escolamupi" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+                    <p><i class="fa fa-phone-square"></i> 19 4042 0996</p>
                 </div>
                 <div class="one-half column">
                     <h5>Deixe seu email para receber atualizações sobre próximas turmas.</h5>
@@ -280,7 +242,7 @@
                         </form>
                     </div>
                 </div>
-                <p class="u-pull-right pwdby">Powered by <a href="http://escolamupi.com.br" target="_blank" class="mupi-link">Escola Mupi</a></p>
+                <!-- <p class="u-pull-right pwdby">Powered by <a href="http://escolamupi.com.br" target="_blank" class="mupi-link">Escola Mupi</a></p> -->
             </div>
         </div>
         <script>

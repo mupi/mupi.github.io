@@ -1,5 +1,37 @@
+header{
+  background: url("../images/bannertecmenor.jpg") top left / 100% no-repeat fixed;
+  padding: 2rem 0;
+  color: #fff;
+  padding: 6% 0;
+}
+header h1{
+  font-size: 2em;
+  text-transform: uppercase;
+}
+header p{
+  font-size: 1.2em;
+}
+h3{
+  font-size: 1.5em;
+}
 h5{
   margin-bottom: 10px;
+}
+.card{
+  /*border: 1px solid #ccc;*/
+  padding: 15px;
+  margin-bottom: 10px;
+}
+.thumb-circle{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    overflow: hidden;
+    text-align: center;
+    margin: 0 auto;
+}
+.thumb-circle img{
+  width: 100%;
 }
 .text-center{
   text-align: center;
@@ -90,6 +122,9 @@ h5{
 #tutora{
   border-bottom: 1px solid #ddd;
   padding-bottom: 1em;
+}
+.projects{
+    padding-top: 30px;
 }
 .midia{
   padding-top: 3em;
