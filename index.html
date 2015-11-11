@@ -34,7 +34,6 @@
     <!-- Scripts
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="assets/responsive-tabs/jquery.responsiveTabs.min.js"></script>
     <script src="js/main.js"></script>
     <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -71,6 +70,10 @@
                 </li>
                 <li class="navbar-item"><a class="navbar-link" href="#contato">Contato</a>
                 </li>
+                <li class="navbar-item social-icons">
+                    <a href="http://facebook.com/escolamupi" target="_blank"><i class="fa fa-facebook-official"></i></a>
+                    <a href="http://www.twitter.com/escolamupi" target="_blank"><i class="fa fa-twitter-square"></i></a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -82,7 +85,7 @@
     </header>
     <section class="container projects" id="projetos">
         <div class="row">
-            <h2>Nossos projetos</h2>
+            <h5>Nossos projetos</h5>
         </div>
         <div class="row">
             <div class="one-third column card">
@@ -107,25 +110,27 @@
                 </h3>
                 <p>
                     Podemos te ajudar a pensar qual o melhor jeito de se ensinar um conteúdo digitalmente ;)
-                    Criamos videos tutoriais, áudios, podcasts e imagens digitais (incluindo <a href="http://anarute.com/como-gravar-sua-tela-em-gifs-animados-no-linux/" target="_blank">gifs animados</a>) para cursos online.
+                    Criamos videos tutoriais, áudios, podcasts e imagens digitais (incluindo <a href="http://anarute.com/como-gravar-sua-tela-em-gifs-animados-no-linux/" target="_blank">gifs animados</a>) para cursos online. Destacamos nossa participação na equipe do <a href="https://www.coursera.org/course/portestrangeiros" target="_blank">curso de Português para estrangeiras da Unicamp</a> para a plataforma Coursera e no curso da Unicamp de inglês instrumental <a href="https://youtu.be/2t6y-Hkz4Do" target="_blank">Read in Web</a>.
                 </p>
             </div>
             <div class="one-third column card">
                 <div class="thumb-circle">
                     <img src="images/oficinas.png" />
                 </div>
-                <h3>Oficinas presenciais</h3>
+                <a href="http://blog.tecsaladeaula.com.br/category/oficina/" target="_blank">
+                    <h3>Oficinas presenciais</h3>
+                </a>
                 <p>
-                    Oferecemos oficinas e cursos presenciais que abordam pedagogias inovadoras e o uso pedagógico das novas tecnologias. Aqui, os temas podem ser também personalizados de acordo com as necessidades de cada instituição. Tanto as oficinas quantos os cursos podem ser voltado para grupos de educadores e para grupos crianças e adolescentes.
+                    Oferecemos oficinas e cursos presenciais que abordam pedagogias inovadoras e o uso pedagógico das novas tecnologias. Aqui, os temas podem ser também personalizados de acordo com as necessidades de cada instituição. Tanto as oficinas quantos os cursos podem ser voltado para <a href="http://blog.tecsaladeaula.com.br/2015/08/17/oficina-de-podcasts-alvorada/" target="_blank">grupos de educadores</a> e para <a href="http://blog.tecsaladeaula.com.br/2015/08/25/escritacolaborativa/" target="_blank">grupos de crianças e adolescentes</a>.
                 </p>
             </div>
         </div>
     </section>
-    <div class="section">
+    <div class="section quem-somos" id="quem-somos">
         <div class="container">
             <h5>Quem somos</h5>
-            <div class="row section" id="quem-somos">
-                <div class="one-third column" id="sobre">
+            <div class="row section">
+                <div class="one-third column">
                     <p>
                         <img src="images/paulets.jpg" class="img-round u-pull-left" /> Paula Furtado <br/>
                         <strong>Co-fundadora</strong>
@@ -134,11 +139,12 @@
                         <a href="http://paulafurtado.blog.br" target="_blank"><i class="fa fa-link"></i></a>
                         <a href="http://www.twitter.com/paularfurtado" target="_blank"><i class="fa fa-twitter-square"></i></a>
                     </p>
-                    <p>
+                    <button class="expand-btn">+ Bio</button>
+                    <p class="bio">
                         Com formação em Letras pela Unicamp e mestra em Linguística Aplicada (sob orientação da prof. dr. Denise Bértoli Braga), na área de novos letramentos, tecnologia e material digital na mesma universidade. Possui 6 anos de experiência profissional como professora e com a produção de material e-learning e design instrucional.
                     </p>
                 </div>
-                <div class="one-third column" id="sobre">
+                <div class="one-third column">
                     <p>
                         <img src="images/ana.jpg" class="img-round u-pull-left" /> Ana Rute Mendes <br/>
                         <strong>Co-fundadora</strong>
@@ -146,35 +152,38 @@
                         <a href="http://anarute.com" target="_blank"><i class="fa fa-link"></i></a>
                         <a href="http://www.twitter.com/ana_rute" target="_blank"><i class="fa fa-twitter-square"></i></a>
                     </p>
-                    <p>
+                    <button class="expand-btn">+ Bio</button>
+                    <p class="bio">
                       Formada em Midialogia pela Unicamp e técnica em Informática pelo Colégio Técnico de Campinas. Representou a Escola Mupi no processo de aceleração The Lisbon Chalenge em Lisboa, turma Fall'14.
                       Atualmente designer front-end e responsável pela equipe técnica da Mupi.
                     </p>
                 </div>
-                <div class="one-third column" id="sobre">
+                <div class="one-third column"
                     <p>
                         <img src="images/denise.png" class="img-round u-pull-left" /> Denise Braga <br/>
                         <strong>Mentora pedagógica</strong>
                         <a href="http://lattes.cnpq.br/3733839504299045" target="_blank"><i class="fa fa-link"></i></a>
                     </p>
-                    <p>
+                    <button class="expand-btn">+ Bio</button>
+                    <p class="bio">
                         É professora titular do Departamento de Linguística Aplicada da Unicamp onde atua como docente e pesquisadora desde 1980.
                         Desde 1996 dedica-se ao estudo do impacto das tecnologias digitais nas formas de comunicação e nas metodologias de ensino, com ênfase na produção de materiais digitais para estudo automonitorado.
                         Foi criadora e coordenadora do curso digital Read in Web, patenteado pela Unicamp em 2014 e registrado como software livre.
                     </p>
                 </div>
             </div>
-            <div class="row section" id="quem-somos">
-                <div class="one-third column" id="sobre">
+            <div class="row section">
+                <div class="one-third column">
                     <p>
                         <img src="images/naira.jpg" class="img-round u-pull-left" /> Naira Terra<br/>
                         <strong>Pesquisadora e tutora</strong>
                     </p>
-                    <p>
-                        Com formação em Letras pela Unicamp e mestra em Linguística Aplicada (sob orientação da prof. dr. Denise Bértoli Braga), na área de novos letramentos, tecnologia e material digital na mesma universidade. Possui 6 anos de experiência profissional como professora e com a produção de material e-learning e design instrucional.
+                    <button class="expand-btn">+ Bio</button>
+                    <p class="bio">
+                        Com formação em Letras pela UFLA, atuou por 3 anos no programa PIBID em projetos voltados para o ensino público da região de Lavras-MG. Há um ano trabalha na área de design instrucional e com correção de redação. Foi nossa aluna no curso online Tecnologia para Sala de Aula!
                     </p>
                 </div>
-                <div class="one-third column" id="sobre">
+                <div class="one-third column">
                     <p>
                         <img src="images/raquel.jpg" class="img-round u-pull-left" /> Raquel Caldas <br/>
                         <strong>Parceira criativa</strong>
@@ -182,12 +191,13 @@
                         <a href="http://quelcaldas.com" target="_blank"><i class="fa fa-link"></i></a>
                         <a href="http://www.twitter.com/QuelCaldas" target="_blank"><i class="fa fa-twitter-square"></i></a>
                     </p>
-                    <p>
+                    <button class="expand-btn">+ Bio</button>
+                    <p class="bio">
                       Formada em Midialogia pela Unicamp e técnica em Informática pelo Colégio Técnico de Campinas. Representou a Escola Mupi no processo de aceleração The Lisbon Chalenge em Lisboa, turma Fall'14.
                       Atualmente designer front-end e responsável pela equipe técnica da Mupi.
                     </p>
                 </div>
-                <div class="one-third column" id="sobre">
+                <div class="one-third column">
                     <p>
                         <img src="images/favicon.png" class="img-round u-pull-left" /> Você! :) <br/>
                         <strong>Desenvolvedor(a) web</strong>
@@ -221,8 +231,8 @@
                 <div class="one-half column">
                     <h5><i class="fa fa-envelope-o"></i> Dúvidas?</h5>
                     <p>Envie um email para <em>contato@mupi.me</em> que responderemos o mais rápido possível.</p>
-                    <div class="fb-like" data-href="http://www.facebook.com/escolamupi" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
                     <p><i class="fa fa-phone-square"></i> 19 4042 0996</p>
+                    <div class="fb-like" data-href="http://www.facebook.com/escolamupi" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
                 </div>
                 <div class="one-half column">
                     <h5>Deixe seu email para receber atualizações sobre próximas turmas.</h5>

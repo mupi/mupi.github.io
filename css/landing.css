@@ -9,13 +9,23 @@ header h1{
   text-transform: uppercase;
 }
 header p{
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 h3{
   font-size: 1.5em;
 }
 h5{
   margin-bottom: 10px;
+}
+.social-icons{
+  font-size: 1.2em;
+  padding-top: 15px;
+}
+.social-icons a{
+   color: #EA8E62;
+}
+.social-icons a:hover{
+   color: #D11149;
 }
 .card{
   /*border: 1px solid #ccc;*/
@@ -36,14 +46,17 @@ h5{
 .text-center{
   text-align: center;
 }
-.testimonial {
-  background-image: url('../images/bg-curso.jpg');
-  background-size: cover;
-  padding: 2rem 0;
+.expand-btn{
+  display: none;
 }
 .logo{
   height: 30px;
   margin-top: 15px;
+}
+.quem-somos > .container > h5{
+  border-top: 3px solid #d11149;
+  margin-top: 10px;
+  padding-top: 20px;
 }
 .salaaberta{
   max-width: 150px;

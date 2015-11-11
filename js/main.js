@@ -72,12 +72,12 @@ $(document).ready(function() {
       $body.removeClass('has-docked-nav')
     }
   }
-  $('#testimonials-tabs').responsiveTabs({
-    startCollapsed: 'accordion'
-  });
-  $('.select-tab').on('click', function() {
-    $('#testimonials-tabs').responsiveTabs('activate', $(this).val());
-  });
+  // $('#testimonials-tabs').responsiveTabs({
+  //   startCollapsed: 'accordion'
+  // });
+  // $('.select-tab').on('click', function() {
+  //   $('#testimonials-tabs').responsiveTabs('activate', $(this).val());
+  // });
 
   function escapeHtml(string) {
     return String(string).replace(/[&<>"'\/]/g, function(s) {
