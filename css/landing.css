@@ -15,7 +15,9 @@ h3{
   font-size: 1.5em;
 }
 h5{
-  margin-bottom: 10px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  text-align: left;
 }
 .social-icons{
   font-size: 1.2em;
@@ -53,9 +55,21 @@ h5{
   height: 30px;
   margin-top: 15px;
 }
+.clientes-section{
+  background-color: rgb(210, 225, 217);
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
+.logo-cliente{
+  padding-top: 40px;
+}
+.logo-sesc{
+  padding-top: 30px;
+}
 .quem-somos > .container > h5{
-  border-top: 3px solid #d11149;
   margin-top: 10px;
+  margin-bottom: 10px;
   padding-top: 20px;
 }
 .salaaberta{
@@ -312,4 +326,15 @@ h5{
   .popover-link:hover, .popover-item:first-child .popover-link:hover:after {
     border-bottom-color: #33C3F0;
   }
+}
+footer{
+  font-size: 0.8em;
+  padding-top: 1em;
+  text-align: right;
+  background-color: #ba5246;
+  color: #fff;
+}
+footer p{
+  margin-top: 5px;
+  margin-bottom: 1rem;
 }
