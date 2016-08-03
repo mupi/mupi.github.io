@@ -61,11 +61,20 @@ h5{
   padding-bottom: 40px;
   text-align: center;
 }
+.saiu-midia-section{
+  background-color: rgb(210, 225, 217);
+  padding-top: 20px;
+  padding-bottom: 40px;
+  text-align: center;
+}
 .logo-cliente{
   padding-top: 40px;
 }
-.logo-sesc{
-  padding-top: 30px;
+.logo-novae{
+  padding-top: 10px;
+}
+.logo-fisl{
+  margin-top: -30px;
 }
 .quem-somos > .container > h5{
   margin-top: 10px;
