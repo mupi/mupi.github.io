@@ -9,11 +9,11 @@
 
 @font-face {
   font-family: "lattes";
-  src:url("../assets/font-awesome/fonts/lattes.eot");
-  src:url("../assets/font-awesome/fonts/lattes.eot?#iefix") format("embedded-opentype"),
-    url("../assets/font-awesome/fonts/lattes.woff") format("woff"),
-    url("../assets/font-awesome/fonts/lattes.ttf") format("truetype"),
-    url("../assets/font-awesome/fonts/lattes.svg#lattes") format("svg");
+  src:url("../fonts/lattes.eot");
+  src:url("../fonts/lattes.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/lattes.woff") format("woff"),
+    url("../fonts/lattes.ttf") format("truetype"),
+    url("../fonts/lattes.svg#lattes") format("svg");
   font-weight: normal;
   font-style: normal;
 
